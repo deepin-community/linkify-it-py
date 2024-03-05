@@ -1,3 +1,30 @@
+Metadata-Version: 2.1
+Name: linkify-it-py
+Version: 2.0.3
+Summary: Links recognition library with FULL unicode support.
+Author: tsutsu3
+License: MIT
+Project-URL: Homepage, https://github.com/tsutsu3/linkify-it-py
+Keywords: linkify,linkifier,autolink,autolinker
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: dev
+Provides-Extra: benchmark
+Provides-Extra: doc
+License-File: LICENSE
+
 # linkify-it-py
 
 [![CI](https://github.com/tsutsu3/linkify-it-py/workflows/CI/badge.svg?branch=main)](https://github.com/tsutsu3/linkify-it-py/actions)
