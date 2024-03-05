@@ -1,5 +1,47 @@
-template-repository (1.0-1) unstable; urgency=medium
+linkify-it-py (2.0.3-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream version 2.0.3
+  * removed the useless patch
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Georges Khaznadar <georgesk@debian.org>  Thu, 08 Feb 2024 20:10:59 +0100
+
+linkify-it-py (2.0.2-2) unstable; urgency=medium
+
+  * upload to unstable
+
+ -- Georges Khaznadar <georgesk@debian.org>  Sun, 11 Jun 2023 12:58:02 +0200
+
+linkify-it-py (2.0.2-1) experimental; urgency=medium
+
+  * New upstream version 2.0.2
+  * bumped Standards-Version: 4.6.2
+  * indented the list in extended description
+  * made a debian patch for pyproject.toml, to avoid detecting debian/ as a
+    potential python module
+  * added build dependencies on pybuild-plugin-pyproject, python3-pytest
+  * added an explicit dependency on python3
+
+ -- Georges Khaznadar <georgesk@debian.org>  Tue, 02 May 2023 11:26:28 +0200
+
+linkify-it-py (2.0.0-1) unstable; urgency=medium
+
+  * New upstream version 2.0.0
+
+ -- Georges Khaznadar <georgesk@debian.org>  Wed, 11 May 2022 12:56:33 +0200
+
+linkify-it-py (1.0.3-2) unstable; urgency=medium
+
+  * sent the source package to let the debian farm build it
+
+ -- Georges Khaznadar <georgesk@debian.org>  Tue, 12 Apr 2022 20:06:25 +0200
+
+linkify-it-py (1.0.3-1) unstable; urgency=medium
+
+  * came back to release 1.0.3-1 as the package was rejected once, which
+    removes the source package from the upload directory
+
+  * Fixed d/control:  "Section: python3" -> "Section: python"
+    thank you, Thorsten Alteholz! This release Closes: #997970
+    (and Closes: #1008311)
+
+ -- Georges Khaznadar <georgesk@debian.org>  Fri, 08 Apr 2022 18:03:54 +0200

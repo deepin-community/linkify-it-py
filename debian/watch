@@ -1,0 +1,5 @@
+version=4
+
+# PyPI
+https://pypi.debian.net/linkify-it-py/linkify-it-py-(.+)\.(?:zip|tgz|tbz|txz|(?:tar\.(?:gz|bz2|xz)))
+
